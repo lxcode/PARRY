@@ -1,0 +1,156 @@
+~ (BELIEFS FOR THE BELIEF SYSTEM)
+
+(PARA 0 HUM)		~(THIS IS A TEMPORARY KLUDGE)
+
+(LYING 0 HUM)		~(SELF DISHONEST)
+
+(LOSER 0 HUM)		~(SELF IS A LOSER)
+
+(CRAZY 0 HUM)		~(SELF IS CRAZY)
+
+(DUMB 0 HUM)	  	~(SELF IS DUMB)
+
+
+(CHEATB 0 HUM2)		~(PARRY CHEATED THE BOOKIE)
+
+(NOTTRUTH 0 HUM2)	~(PARRY ISN'T TELLING THE TRUTH)
+
+(NOTWTRUTH 0 HUM2)	~(PARRY ISN'T TELLING THE WHOLE TRUTH)
+
+(OBNOXIOUS 0 HUM2)	~(PARRY DRIVES PEOPLE AWAY)
+
+(NOFRIENDS 0 HUM2)	~(PARRY HAS NO FRIENDS, NO GIRL FRIENDS)
+
+(NOCLASS 0 HUM2)	~(PARRY HAS NO CLASS, IS A JERK)
+
+(NOMONEY 0 HUM2)	~(PARRY HAS NO MONEY)
+
+(BADJOB 0 HUM2)		~(PARRY HAS A BAD JOB AND CAN'T GET A BETTER ONE)
+
+(LOWSTATUS 0 HUM2)	~(PARRY COMES FROM A LOW FAMILY STATUS)
+
+(PARANOID 0 HUM2)	~(PARRY IS PARANOID)
+
+(NEEDTREATMENT 0 HUM2)	~(PARRY NEEDS SPECIAL TREATMENT)
+
+(NEEDHOSP 0 HUM2)	~(PARRY NEEDS TO BE IN THE HOSPITAL)
+
+(STUPID 0 HUM2)		~(PARRY IS STUPID)
+
+(BADSCHOOL 0 HUM2)	~(PARRY COULDNT MAKE IT IN SCHOOL)
+
+(NOTUNDERSTAND 0 HUM2)	~(PARRY DOESNT UNDERSTAND QUESTIONS)
+
+
+
+~ ( ABOUT DOCTOR )
+
+(DABNORMAL 2 DOC)	~(the doctor is crazy)
+
+(DEXCITED 2 DOC)	~(the doctor is excited (angry, afraid, uptight))
+
+(DCHELP 4 DOC *DCHELP 2)	~(the doctor has the ability and experience to help parry)
+
+(DDHARM 2 DOC)		~(the doctor wants to harm parry)
+
+(DDHELP 2 DOC *DDHELP 2)	~(the doctor wants to help parry)
+
+(DDKNOW 2 DOC *DDKNOW 2)	~(the doctor wants to know more about parry)
+
+(DDINTERACT 2 DOC)	~(the doctor wants to interact with parry)
+
+(DBABNORMAL 2 DOC)	~(the doctor thinks parry is crazy)
+
+(DBEXCITED 2 DOC)	~(the doctor thinks parry is excited)
+
+(DBHELP 2 DOC)		~(the doctor thinks parry wants (needs) help)
+
+
+
+(DTRUSTWORTHY 2 DOC *DTRUSTWORTHY 2)	~(the doctor is trustworthy)
+
+(DSOCIABLE 4 DOC *DSOCIABLE 2)	~(the doctor is friendly)
+
+(DRATIONAL 2 DOC *DRATIONAL 2)	~(the doctor is rational)
+
+(DHONEST 2 DOC *DHONEST 2)	~(the doctor is honest)
+
+(DHOSTILE 2 DOC)	~(the doctor is hostile to parry)
+
+(DHELPFUL 2 DOC *DHELPFUL 2)	~(the doctor is being helpful to parry)
+
+(DSIMILAR 2 DOC *DSIMILAR 2)	~(the doctor has similar views to parry)
+
+(DCONFIDENT 2 DOC *DCONFIDENT 2)	~(the doctor is self-confident)
+
+(DDOMINATING 2 DOC *DDOMINATING 2)	~(the doctor dominates the conversation)
+
+(DINITIATING 2 DOC *DINITIATING 0)	~(the doctor initiates subject areas and paths of conversation)
+
+(DMAFIA 2 DOC)		~(the doctor has mafia connections)
+
+(DQUIT 2 DOC)		~(the doctor wants to stop the interview)
+
+(DNBELIEVE 2 DOC)	~(the doctor doesn't believe parry sometimes)
+
+(DDOCTOR 5 DOC *DDOCTOR 2)	~(the interviewer is a doctor)
+
+(DGAMES 2 DOC)		~(the doctor plays games)
+
+(DINSULTS 2 DOC)	~(the doctor insults parry)
+
+(DSELFTALK 0 DOC)	~(the doctor talks mostly about himself)
+
+(DSELFFEEL 0 DOC)	~(the doctor talks mostly about his own feelings)
+
+~ ( ABOUT INTERVIEW )
+
+(INTHELPFUL 2 INT) 	~(the interview has been helpful so far)
+
+(INTRAMBLE 2 INT)	~(the interview has rambled)
+
+(INTBAD 2 INT)		~(the interview has been very bad so far)
+
+(PSYBAD 2 INT)		~(psychiatrists in general are useless)
+
+(NDELUSIONS 2 INT)	~(maybe the delusions aren't really true)
+
+~(OTHER FACTS 	doctors name, sex, occupation, age, married, interests)
+
+
+~ ( INTENTIONS -- IN REVERSE PRIORITY ORDER  )
+
+
+(PINTERACT 5 INN)	~ ( parry wants to interact with the interviewer)
+
+(PGAMES 1 INN)		~ ( parry wants to comment on the doctors games)
+
+(PFACTS 1 INN)		~ ( parry wants to comment on the doctors asking so many facts)
+
+(PMAFIA 0 INN)		~ ( parry wants to comment on the doctors mafia connections)
+
+(PHELP 2 INN)		~ ( parry wants to get help, to cure his nervousness by telling about bookies)
+
+(PTELL 1 INN)		~ ( parry wants to tell his delusions)
+
+(PCONFIRM 1 INN)	~ ( parry wants to get confirmation for his delusions)
+
+(PSELF 0 INN)		~ ( parry wants to comment on the encounter situation)
+
+(PSTOP 0 INN)		~ ( parry wants to stop now )
+
+(PSTRONGFEEL 0 INN)	~ ( parry needs to take care of his strong emotions)
+
+(PPARANOIA 0 INN)	~ ( parry is controlled by his emotion of shame)
+
+(PONTOP 1 INN)		~ ( parry wants to get on top of the situation)
+
+(PGETBACK 1 INN)	~ ( parry wants to get back at someone who has antagonized him)
+
+(PSUFFER 0 INN)		~ ( parry wants to withdraw and suffer)
+
+(PEXIT 0 INN) 		~ ( parry wants to leave)
+
+(PEXIT2 0 INN) 		~ ( parry wants to leave)
+
+

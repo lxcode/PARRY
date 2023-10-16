@@ -1,0 +1,19 @@
+BE noun verb		noun verb ?
+DO noun verb		noun verb ?
+HAVE noun verb		noun verb past ?
+TO verb noun noun	IMP-verb-obj-obj
+TO verb noun		IMP-verb-obj
+TO verb			IMP-verb
+auxiliary noun verb	noun verb ?
+interjection		interjection
+noun BE verb		noun verb
+noun DO verb		noun verb
+noun HAVE verb		noun verb past
+noun auxiliary verb	noun verb
+noun verb noun noun	sub-verb-obj-obj
+noun verb noun		sub-verb-obj
+noun verb		sub-verb
+preposition noun	prep-phrase
+verb noun noun		IMP-verb-obj-obj
+verb noun		IMP-verb-obj
+verb			IMP-verb

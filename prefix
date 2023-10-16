@@ -1,0 +1,9 @@
+ANY	what		adverb
+DIS	word		NOT
+EVERY	what		adverb
+IN	word		NOT
+MIS	word		NOT
+NO	what		adverb NOT
+SOME	what		adverb
+UN	word		NOT
+WITH	preposition

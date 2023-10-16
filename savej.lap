@@ -1,0 +1,75 @@
+
+(LAP SAVEJOB SUBR) 
+(MOVEM 2 SAVEXT#) 
+(CALL 1 (E SIXBIT)) 
+(MOVEM 1 SAVNAM#) 
+(MOVE 1 SAVEXT#) 
+(JUMPE 1 SAVACS#) 
+(CALL 1 (E SIXBIT)) 
+(MOVEM 1 SAVEXT#) 
+SAVACS# 
+(MOVEM 0 AC0#) 
+(MOVE 0 (C 1 0 AC1#)) 
+(251000 0 AC17#) 
+(MOVE 1 (C SAVE# 0)) 
+(47000 1 400004) 
+START# 
+(MOVE 0 (C AC1# 0 1)) 
+(251000 0 17) 
+(MOVE 0 AC0#) 
+(MOVEI 1 (QUOTE NIL)) 
+(POPJ P) 
+SAVE# 
+(446353 0 0) 
+SAVNAM# 
+(0 0) 
+SAVEXT# 
+(0 0) 
+(0 0 START#) 
+(0 0) 
+AC0# 
+(0 0) 
+AC1# 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+AC17# 
+(0 0) 
+NIL 
+
+(LAP SIXBIT SUBR) 
+(MOVEI 2 (QUOTE PNAME)) 
+(CALL 2 (E GET)) 
+(HLRZ@ 2 1) 
+(MOVE 2 0 2) 
+(MOVEI 3 0) 
+(HRRZ@ 1 1) 
+(JUMPE 1 START#) 
+(HLRZ@ 3 1) 
+(MOVE 3 0 3) 
+START# 
+(402000 0 1) 
+(MOVEI 7 6) 
+(MOVE 4 (C 440700 0 2)) 
+(MOVE 5 (C 440600 0 1)) 
+LOOP# 
+(134000 6 4) 
+(JUMPE 6 END#) 
+(275000 6 40) 
+(136000 6 5) 
+(367000 7 LOOP#) 
+END# 
+(POPJ P) 
+NIL 
+
