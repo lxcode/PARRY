@@ -1,5 +1,2 @@
-*.lap linguist-language=LISP
-*.alf linguist-language=LISP
-*.sel linguist-language=LISP
-*.pat linguist-language=LISP
+*.lap linguist-language=lisp
 *.fai linguist-language=unix-assembly
